@@ -1,9 +1,10 @@
 # 起動メモ
 ```git clone``` ```npm install``` ```npm run dev```
 
-# React + TypeScript + Vite
+# React + TypeScript + Vite = Vercelでデプロイ
 
 以下詳細あり
+https://game-vps-vmtf.vercel.app/
 
 # ゲーマー向けVPS選びガイド 🎮
 サンプルサイト（対応中）
