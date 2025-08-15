@@ -1,7 +1,7 @@
 # 起動メモ
 ```git clone``` ```npm install``` ```npm run dev```
 
-# React + TypeScript + Vite = Vercelでデプロイ
+# React + TypeScript（型推論使用中） + Vite = Vercelでデプロイ
 
 以下詳細あり
 https://game-vps-vmtf.vercel.app/
@@ -40,7 +40,7 @@ https://game-vps-vmtf.vercel.app/
 
 ## 🛠 技術スタック
 
-- **Framework**: React 19 + TypeScript
+- **Framework**: React 19 + TypeScript（型推論使用中）
 - **Build Tool**: Vite
 - **Styling**: Tailwind CSS v3 + shadcn/ui
 - **Icons**: Lucide React
