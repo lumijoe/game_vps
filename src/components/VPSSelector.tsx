@@ -58,7 +58,7 @@ export function VPSSelector() {
   };
 
   return (
-    <section className="px-6 py-16 bg-white">
+    <section className="px-6 py-16 bg-white" id="spectest">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="mb-4">VPS推奨スペック診断</h2>

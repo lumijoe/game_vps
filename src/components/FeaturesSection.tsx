@@ -150,12 +150,12 @@ export function FeaturesSection() {
             適切なスペックのVPSを選んで、友達と快適なゲーム体験を楽しみましょう
           </p>
           <div className="flex justify-center gap-4">
-            <button className="px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors">
+            <a href="#spectest" className="inline-block px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors text-center">
               スペック診断をもう一度
-            </button>
-            <button className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors">
+            </a>
+            <a href="#providerspec" className="inline-block px-6 py-3 border border-white text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors text-center">
               比較表を見る
-            </button>
+            </a>
           </div>
         </div>
       </div>

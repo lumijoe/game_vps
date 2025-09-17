@@ -71,7 +71,7 @@ const providers = [
 
 export function ComparisonTable() {
   return (
-    <section className="px-6 py-16 bg-gray-50">
+    <section className="px-6 py-16 bg-gray-50" id="providerspec">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="mb-4">VPSプロバイダー比較</h2>
