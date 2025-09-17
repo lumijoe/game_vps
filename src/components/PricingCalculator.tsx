@@ -14,24 +14,24 @@ export function PricingCalculator() {
   const [result, setResult] = useState(null);
 
   const providers = {
-    kagoya: {
-      name: "KAGOYA CLOUD VPS",
+    kvps: {
+      name: "K CLOUD VPS",
       plans: {
         "1gb": { monthly: 550, hourly: 1.1 },
         "2gb": { monthly: 1100, hourly: 2.2 },
         "4gb": { monthly: 2200, hourly: 4.4 }
       }
     },
-    onamae: {
-      name: "お名前.com VPS",
+    ovps: {
+      name: "O CLOUD VPS",
       plans: {
         "1gb": { monthly: 896, hourly: 1.8 },
         "2gb": { monthly: 1796, hourly: 3.6 },
         "4gb": { monthly: 3596, hourly: 7.2 }
       }
     },
-    conoha: {
-      name: "ConoHa VPS",
+    cvps: {
+      name: "C CLOUD VPS",
       plans: {
         "1gb": { monthly: 682, hourly: 1.4 },
         "2gb": { monthly: 1364, hourly: 2.8 },
@@ -100,9 +100,9 @@ export function PricingCalculator() {
                     <SelectValue placeholder="プロバイダーを選択" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="kagoya">KAGOYA CLOUD VPS</SelectItem>
-                    <SelectItem value="onamae">お名前.com VPS</SelectItem>
-                    <SelectItem value="conoha">ConoHa VPS</SelectItem>
+                    <SelectItem value="kvps">Kクラウド VPS</SelectItem>
+                    <SelectItem value="ovps">Oクラウド VPS</SelectItem>
+                    <SelectItem value="cvps">Cクラウド VPS</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

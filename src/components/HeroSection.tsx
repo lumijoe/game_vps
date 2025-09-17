@@ -11,7 +11,7 @@ export function HeroSection() {
             ゲーマー向けVPS選びガイド
           </h1>
           <p className="mb-8 text-xl text-muted-foreground max-w-3xl mx-auto">
-            マイクラ、ARK、Rust...あなたのゲームに最適なVPSを見つけよう。
+            M-game、A-game、R-game...あなたのゲームに最適なVPSを見つけよう。
             人数とゲームに応じた推奨スペックから、コスパ最強のサーバーまで徹底比較。
           </p>
           <Button size="lg" className="mr-4">

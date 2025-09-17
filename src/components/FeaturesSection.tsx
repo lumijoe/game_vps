@@ -16,7 +16,7 @@ export function FeaturesSection() {
     {
       icon: Users,
       title: "プレイヤー数で決める",
-      description: "マイクラなら1-4人で2GB、5-10人で4GB、11人以上で8GBが目安。MOD使用時は1段階上のスペックを推奨。",
+      description: "GAME-Aなら1-4人で2GB、5-10人で4GB、11人以上で8GBが目安。MOD使用時は1段階上のスペックを推奨。",
       color: "blue"
     },
     {
@@ -41,28 +41,28 @@ export function FeaturesSection() {
 
   const gameGuides = [
     {
-      game: "Minecraft",
+      game: "M-game",
       icon: "⛏️",
       minSpec: "2GB/1コア",
       recommendedSpec: "4GB/2コア",
       notes: "バニラなら2GB、大量MODなら8GB推奨"
     },
     {
-      game: "ARK: Survival Evolved",
+      game: "A-game",
       icon: "🦕",
       minSpec: "6GB/2コア",
       recommendedSpec: "12GB/4コア",
       notes: "重いゲームのため高スペック必須"
     },
     {
-      game: "Rust",
+      game: "R-game",
       icon: "🔧",
       minSpec: "4GB/2コア",
       recommendedSpec: "8GB/4コア",
       notes: "プレイヤー数に応じてスケールアップ"
     },
     {
-      game: "Valheim",
+      game: "V-game",
       icon: "⚔️",
       minSpec: "2GB/2コア",
       recommendedSpec: "4GB/2コア",
