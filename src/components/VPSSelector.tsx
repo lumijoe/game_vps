@@ -7,24 +7,24 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 
 const gameSpecs = {
-  minecraft: {
-    name: "Minecraft",
+  mgame: {
+    name: "M-game",
     specs: {
       "1-4": { ram: "2GB", cpu: "1コア", storage: "20GB", price: "500-800円" },
       "5-10": { ram: "4GB", cpu: "2コア", storage: "40GB", price: "1000-1500円" },
       "11+": { ram: "8GB", cpu: "4コア", storage: "80GB", price: "2000-3000円" }
     }
   },
-  ark: {
-    name: "ARK: Survival Evolved",
+  agame: {
+    name: "A-game",
     specs: {
       "1-4": { ram: "6GB", cpu: "2コア", storage: "100GB", price: "1500-2000円" },
       "5-10": { ram: "12GB", cpu: "4コア", storage: "200GB", price: "3000-4000円" },
       "11+": { ram: "16GB", cpu: "6コア", storage: "300GB", price: "5000-6000円" }
     }
   },
-  rust: {
-    name: "Rust",
+  rgame: {
+    name: "R-game",
     specs: {
       "1-4": { ram: "4GB", cpu: "2コア", storage: "50GB", price: "1000-1500円" },
       "5-10": { ram: "8GB", cpu: "4コア", storage: "100GB", price: "2000-3000円" },
@@ -80,9 +80,9 @@ export function VPSSelector() {
                     <SelectValue placeholder="ゲームを選択してください" />
                   </SelectTrigger>
                   <SelectContent>
-                    <SelectItem value="minecraft">Minecraft</SelectItem>
-                    <SelectItem value="ark">ARK: Survival Evolved</SelectItem>
-                    <SelectItem value="rust">Rust</SelectItem>
+                    <SelectItem value="mgame">M-game</SelectItem>
+                    <SelectItem value="agame">A-game</SelectItem>
+                    <SelectItem value="rgame">R-game</SelectItem>
                   </SelectContent>
                 </Select>
               </div>

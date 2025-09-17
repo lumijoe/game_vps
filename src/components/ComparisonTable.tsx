@@ -4,7 +4,7 @@ import { Check, X } from "lucide-react";
 
 const providers = [
   {
-    name: "KAGOYA CLOUD VPS",
+    name: "k CLOUD VPS",
     logo: "🏢",
     plans: [
       { name: "1GB", ram: "1GB", cpu: "1コア", price: "550円", hourly: "1.1円" },
@@ -20,7 +20,7 @@ const providers = [
     }
   },
   {
-    name: "お名前.com VPS",
+    name: "O CLOUD VPS",
     logo: "🌐",
     plans: [
       { name: "1GB", ram: "1GB", cpu: "2コア", price: "896円", hourly: "1.8円" },
@@ -36,7 +36,7 @@ const providers = [
     }
   },
   {
-    name: "ConoHa VPS",
+    name: "C CLOUD VPS",
     logo: "☁️",
     plans: [
       { name: "1GB", ram: "1GB", cpu: "1コア", price: "682円", hourly: "1.4円" },
@@ -52,7 +52,7 @@ const providers = [
     }
   },
   {
-    name: "さくらVPS",
+    name: "S CLOUD VPS",
     logo: "🌸",
     plans: [
       { name: "1GB", ram: "1GB", cpu: "1コア", price: "880円", hourly: "×" },
